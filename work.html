@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeverSkip - Homework</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='k.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('home') }}">NeverSkip</a>
+        <a href="{{ url_for('lessons') }}">Lessons</a>
+        <a href="{{ url_for('recommend_concepts') }}">Recommend</a>
+        <a href="{{ url_for('report_card') }}">Report</a>
+        <a href="{{ url_for('attendance') }} ">attendance</a>
+        <a href="{{ url_for('work') }} ">work</a>
+    </nav>
+    <section>
+        {% if assignments %}
+            <ul>
+                {% for assignment in assignments %}
+                    <li><a href="{{ assignment.link }}">{{ assignment.title }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No assignments available.</p>
+        {% endif %}
+    </section>
+
+</body>
+</html>

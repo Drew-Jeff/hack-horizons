@@ -1,0 +1,103 @@
+nav {
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    flex-direction: row;
+    opacity: 1;
+    z-index: 1000;
+    padding: 15px;
+    background: linear-gradient(rgba(2, 102, 120, 0.851), rgba(58, 39, 168, 0.889), rgba(26, 71, 26, 0.648));
+}
+
+nav a {
+    padding: 15px 25px;
+    color: rgb(236, 231, 177);
+    font-style: italic;
+    font-size: medium;
+}
+
+nav a:hover {
+    color: rgb(2, 10, 18);
+    background-color: rgba(98, 122, 228, 0.466);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgb(95, 217, 95), rgb(64, 135, 135), rgb(36, 36, 92));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    background-color: rgba(68, 71, 72, 0.447);
+    position: relative;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+.menu{
+    margin-top:vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(68, 71, 72, 0.447);
+    position: relative;
+    left: 0;
+    width: 15vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+section{
+    margin:20vh;
+    height: 60vh;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.249);
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    margin:10vh 20vw;
+    background-color: rgba(68, 71, 72, 0.8);
+    width: 40vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align:left;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 30vw;
+    }
+
+    main {
+        margin: 8vh 5vw;
+        width: 90vw;
+        grid-template-columns: 1fr;
+    }
+}

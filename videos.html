@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeverSkip - Videos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='demo1.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ url_for('home') }}">NeverSkip</a>
+            <a href="{{ url_for('lessons') }}">Lessons</a>
+            <a href="{{ url_for('recommend_concepts') }}">Recommend</a>
+            <a href="{{ url_for('report_card') }}">Report</a>
+            <a href="{{ url_for('attendance') }} ">attendance</a>
+            <a href="{{ url_for('work') }} ">work</a>
+        </nav>
+    </header>
+    <main>
+        <section class="search">
+            <input type="search" class="j" placeholder="Enter your Topic">
+        </section>
+    </main>
+</body>
+</html>

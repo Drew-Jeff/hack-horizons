@@ -1,0 +1,192 @@
+nav{
+    height: 08vh;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display: inline-flex;
+    flex-direction: row;
+    opacity: 1;
+    z-index: 1000;
+    padding: 15px;
+    background:linear-gradient(rgba(2, 102, 120, 0.851),rgba(58, 39, 168, 0.889),rgba(26, 71, 26, 0.648));
+    margin-bottom: 40px;
+}
+nav a{
+    padding: 15px 25px;
+    padding: 15px;
+    gap:20px;
+    color:rgb(236, 231, 177);
+    font-style: italic;
+    font-size: medium;
+}
+nav a:hover{
+    color:rgb(2, 10, 18);
+    background-color: rgba(98, 122, 228, 0.466);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(95, 217, 95),rgb(64, 135, 135),rgb(36, 36, 92));
+    background-repeat:no-repeat;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    margin: 20px;
+    padding:20px auto;
+    height:20vh;
+    border:none;
+    width:05vw;
+}
+.reg-1{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin:70px 5vh;
+    padding:4vh;
+    height: 40vh;
+    width: 80vw;
+    border-radius:20px;
+    position:relative;
+    margin-bottom: 30px;
+    background:linear-gradient(rgba(210, 224, 210, 0.796),rgba(151, 223, 223, 0.73),rgba(165, 165, 246, 0.758));
+}
+.reg-1 .row{
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    position:relative;
+    width: 80vw;
+}
+.card1{
+    height:25vh;
+    width: 20vw;
+    border:whitesmoke;
+    box-shadow: inset;
+    border-radius:15px;
+    color: antiquewhite;
+    background-color:rgb(40, 86, 236);
+}
+.card1 p{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding:10px;
+    align-items:center;
+    justify-content: center;
+    align-items: center;
+}
+.card1:hover{
+    transform: scale(1.2,1.2);
+    background: linear-gradient(lightblue,purple,violet,slateblue);
+    color: black;
+    transition: 1s;
+}
+.card1 img{
+    height:70%;
+    width:100%;
+    flex-direction: row;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+.reg-2{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    margin:40px 5vh;
+    padding:4vh;
+    height: 30vh;
+    width: 80vw;
+    border-radius:20px;
+    background:linear-gradient(rgba(210, 224, 210, 0.796),rgba(151, 223, 223, 0.73),rgba(165, 165, 246, 0.758));
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.reg-3{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    margin:40px 5vh;
+    padding:4vh;
+    height: 50vh;
+    width: 80vw;
+    border-radius:20px;
+    background:linear-gradient(rgba(210, 224, 210, 0.796),rgba(151, 223, 223, 0.73),rgba(165, 165, 246, 0.758));
+}
+.reg-2 button{
+    padding: 15px;
+    width:15vw;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.75;
+    background-color: rgba(3, 10, 67, 0.721);
+    color: azure;
+}
+.reg-2 button:hover{
+    background-color: rgba(241, 226, 239, 0.701);
+    opacity: 1;
+    color:black;
+    transition: 1s;
+    cursor:grab;
+}
+h1{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+}
+.reg-3{
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.reg-3 h1{
+    display: inline-flex;
+    flex-direction:row;
+}
+.reg-3 .row{
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    position:relative;
+    width: 80vw;
+}
+.reg-3 .row .card1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 56, 255);
+    opacity: 0.75;
+}
+.reg-3 .row .card1:hover{
+    background: linear-gradient(lightblue,rgb(86, 51, 146),rgb(87, 108, 164),rgb(114, 94, 248));
+    color: azure;
+    opacity: 1;
+    transition: 1s;
+}
+main{
+    margin:70px 5vw;
+    width:90vw;
+    background-color:rgba(68, 71, 72, 0.447);
+}
+.reg-1,.reg-2,.reg-3{
+    background: transparent linear-gradient( rgba(60, 122, 255, 0.648), rgba(95, 255, 218, 0.507),rgba(38, 175, 255, 0.521));
+}
+.reg-1,.reg-3{
+    border-top-right-radius:200px;
+    
+}
+.reg-2{
+    border-top-left-radius: 200px;
+}

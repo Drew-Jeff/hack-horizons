@@ -1,0 +1,30 @@
+.content-section{
+    margin:20vh;
+    height: 60vh;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.249);
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    margin:10vh 20vw;
+    background-color: rgba(68, 71, 72, 0.8);
+    width: 40vh;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align:left;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+}

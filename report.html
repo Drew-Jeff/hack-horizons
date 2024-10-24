@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='k.css') }}">
+</head>
+<body>
+    <header>
+        <header>
+            <nav>
+                <a href="{{ url_for('home') }}">NeverSkip</a>
+                <a href="{{ url_for('lessons') }}">Lessons</a>
+                <a href="{{ url_for('recommend_concepts') }}">Recommend</a>
+                <a href="{{ url_for('report_card') }}">Report</a>
+                <a href="{{ url_for('attendance') }} ">attendance</a>
+                <a href="{{ url_for('work') }} ">work</a>
+            </nav>
+        </header>
+    </header>
+    <section>
+        <div class="card">
+            <h1>Report Card</h1>
+            <hr>
+            {% if report_data %}
+                {% for item in report_data %}
+                    <h2>{{ item.subject }}: {{ item.marks }}</h2>
+                {% endfor %}
+            {% else %}
+                <h2>No report card data available.</h2>
+            {% endif %}
+        </div>
+    </section>
+</body>
+</html>

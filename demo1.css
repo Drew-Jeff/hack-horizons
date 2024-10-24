@@ -1,0 +1,101 @@
+nav{
+    height: 08vh;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display: inline-flex;
+    flex-direction: row;
+    opacity: 1;
+    z-index: 1000;
+    padding: 15px;
+    background:linear-gradient(rgba(2, 102, 120, 0.851),rgba(58, 39, 168, 0.889),rgba(26, 71, 26, 0.648));
+    margin-bottom: 40px;
+}
+nav a{
+    padding: 15px 25px;
+    padding: 15px;
+    gap:20px;
+    color:rgb(236, 231, 177);
+    font-style: italic;
+    font-size: medium;
+}
+nav a:hover{
+    color:rgb(2, 10, 18);
+    background-color: rgba(98, 122, 228, 0.466);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(95, 217, 95),rgb(64, 135, 135),rgb(36, 36, 92));
+    background-repeat: no-repeat;
+    height:100vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reg-1{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin:70px 5vh;
+    padding:4vh;
+    height: 40vh;
+    width: 80vw;
+    border-radius:20px;
+    position:relative;
+    margin-bottom: 30px;
+    background:linear-gradient(rgba(210, 224, 210, 0.796),rgba(151, 223, 223, 0.73),rgba(165, 165, 246, 0.758));
+}
+.reg-1 .row{
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    position:relative;
+    width: 80vw;
+}
+.card1{
+    height:25vh;
+    width: 20vw;
+    border:whitesmoke;
+    box-shadow: inset;
+    border-radius:15px;
+    color: antiquewhite;
+    background-color:rgb(40, 86, 236);
+}
+.card1 p{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding:10px;
+    align-items:center;
+    justify-content: center;
+    align-items: center;
+}
+.card1:hover{
+    transform: scale(1.2,1.2);
+    background-color: cadetblue;
+    color: black;
+    transition: 1s;
+}
+.j{
+    padding: 0px;
+    background-color: azure;
+    padding:02vh;
+    border: none;
+    border-radius: 20px;
+    width:60vw;
+}
+main{
+    margin:10vw;
+    padding:10vh;
+    background-color:rgba(68, 71, 72, 0.447);
+}
+h1{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+}

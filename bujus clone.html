@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeverSkip</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='j.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ url_for('home') }}">NeverSkip</a>
+            <a href="{{ url_for('lessons') }}">Lessons</a>
+            <a href="{{ url_for('recommend_concepts') }}">Recommend</a>
+            <a href="{{ url_for('report_card') }}">Report</a>
+            <a href="{{ url_for('attendance') }} ">attendance</a>
+            <a href="{{ url_for('work') }} ">work</a>
+        </nav>
+    </header>
+    <main>
+        <section class="reg-1">
+            <h1>Continue Learning</h1>
+            <div class="row">
+                <div class="card1">
+                    <img src="https://media.istockphoto.com/id/1441621474/vector/trigonometry-vector-colorful-banner-or-illustration.jpg?s=1024x1024&w=is&k=20&c=5elrGd57K-4okczk6qRITcXKbpjs3gxvlBnCP2RhWhE=" alt="">
+                    <p>Trigonometry</p>
+                </div>
+                <div class="card1">
+                    <img src="https://as1.ftcdn.net/v2/jpg/08/34/69/40/1000_F_834694031_h6LFMgBe8Osr5iQbdn5LxbstccL9JlpP.jpg" alt="">
+                    <p>Electro Chemistry</p>
+                </div>
+                <div class="card1">
+                    <img src="https://as1.ftcdn.net/v2/jpg/08/89/91/14/1000_F_889911406_Ly4mXoBJABsoBlY1o4Tx5rq4sfY8YPfO.jpg" alt="">
+                    <p>Laws of Motion</p>
+                </div>
+                <div class="card1">
+                    <img src="https://as1.ftcdn.net/v2/jpg/08/88/10/56/1000_F_888105666_R1Wl5ukugBO8aVecYxYRoC9iunAWfrxw.jpg" alt="">
+                    <p>Topology</p>
+                </div>
+            </div>
+        </section>
+        <section class="reg-2">
+            <h1>Explore Topics</h1>
+            <div class="row">
+                <button>Linear algebra</button>
+                <button>Probability</button>
+            </div>
+            <div class="row">
+                <button>French Revolution</button>
+                <button>Pollution</button>
+            </div>
+        </section>
+        <section class="reg-3">
+            <h1>Current Progress</h1>
+            <div class="row">
+                <div class="card1"><p>Topology:- 20%</p></div>
+                <div class="card1"><p>Trigonometry:- 30%</p></div>
+                <div class="card1"><p>Electro Chemistry:- 30%</p></div>
+                <div class="card1"><p>Laws of Motion:- 40%</p></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@NeverSkip</p>
+    </footer>
+</body>
+</html>
