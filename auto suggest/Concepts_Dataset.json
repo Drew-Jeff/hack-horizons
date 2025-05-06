@@ -1,0 +1,372 @@
+[
+    {
+      "Concept": "Edge Computing",
+      "Subject": "Software Engineering",
+      "Common Major": "Electrical Engineering",
+      "Prerequisites": ["Statistics"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 53,
+      "Video Source": "IBM Technology",
+      "Video Link": "https://www.youtube.com/watch?v=cEOUeItHDdo"
+    },
+    {
+      "Concept": "React",
+      "Subject": "Frontend Development",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["JS"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 75,
+      "Video Source": "Bro Code",
+      "Video Link": "https://www.youtube.com/watch?v=CgkZ7MvWUAA"
+    },
+    {
+      "Concept": "Cryptography",
+      "Subject": "AI/ML",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Web Development Basics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 72,
+      "Video Source": "Neso Academy",
+      "Video Link": "https://www.youtube.com/watch?v=JoeiLuFNBc4"
+    },
+    {
+      "Concept": "Data Structures",
+      "Subject": "AI/ML",
+      "Common Major": "Cybersecurity",
+      "Prerequisites": ["Database Basics", "Data Structures"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 50,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=8hly31xKli0"
+    },
+    {
+      "Concept": "Go",
+      "Subject": "Operating Systems",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Statistics"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 51,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=un6ZyFkqFKo"
+    },
+    {
+      "Concept": "Game Development",
+      "Subject": "Cybersecurity",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Data Structures"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 83,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=gB1F9G0JXOo"
+    },
+    {
+      "Concept": "TensorFlow",
+      "Subject": "Database Systems",
+      "Common Major": "Electrical Engineering",
+      "Prerequisites": ["Statistics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 52,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=tPYj3fFJGjk"
+    },
+    {
+      "Concept": "C",
+      "Subject": "Networking",
+      "Common Major": "Software Engineering",
+      "Prerequisites": ["Networking Basics", "Web Development Basics"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 80,
+      "Video Source": "Simplilearn",
+      "Video Link": "https://www.youtube.com/watch?v=gEJBFKDkqTE"
+    },
+    {
+      "Concept": "Ruby on Rails",
+      "Subject": "Operating Systems",
+      "Common Major": "Electrical Engineering",
+      "Prerequisites": ["Web Development Basics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 77,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=fmyvWz5TUWg"
+    },
+    {
+      "Concept": "Computer Graphics",
+      "Subject": "Operating Systems",
+      "Common Major": "Data Science",
+      "Prerequisites": ["Networking Basics", "Mathematics", "Algorithms"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 55,
+      "Video Source": "Education4u",
+      "Video Link": "https://www.youtube.com/watch?v=NmMky9Pg8Yc"
+    },
+    {
+      "Concept": "Unit Testing",
+      "Subject": "Networking",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Database Basics", "Basic Programming", "Statistics"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 64,
+      "Video Source": "Andy Sterkowitz",
+      "Video Link": "https://www.youtube.com/watch?v=3kzHmaeozDI"
+    },
+    {
+      "Concept": "Terraform",
+      "Subject": "Software Engineering",
+      "Common Major": "Cybersecurity",
+      "Prerequisites": ["Data Structures"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 93,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=SLB_c_ayRMo"
+    },
+    {
+      "Concept": "Rust",
+      "Subject": "Software Engineering",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Basic Programming", "Data Structures", "Mathematics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 82,
+      "Video Source": "Traversy Media",
+      "Video Link": "https://www.youtube.com/watch?v=zF34dRivLOw"
+    },
+    {
+      "Concept": "PHP",
+      "Subject": "Software Engineering",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Data Structures"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 98,
+      "Video Source": "Traversy Media",
+      "Video Link": "https://www.youtube.com/watch?v=BUCiSSyIGGU"
+    },
+    {
+      "Concept": "Design Patterns",
+      "Subject": "Cybersecurity",
+      "Common Major": "Data Science",
+      "Prerequisites": ["Web Development Basics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 76,
+      "Video Source": "Christopher Okhravi",
+      "Video Link": "https://www.youtube.com/watch?v=v9ejT8FO-7I"
+    },
+    {
+      "Concept": "Integration Testing",
+      "Subject": "Networking",
+      "Common Major": "Electrical Engineering",
+      "Prerequisites": ["Data Structures", "Networking Basics"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 89,
+      "Video Source": "Simplilearn",
+      "Video Link": "https://www.youtube.com/watch?v=QYCaaNz8emY"
+    },
+    {
+      "Concept": "UX/UI Design",
+      "Subject": "Database Systems",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Basic Programming", "Database Basics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 81,
+      "Video Source": "Google Developers",
+      "Video Link": "https://www.youtube.com/watch?v=wIuVvCuiJhU"
+    },
+    {
+      "Concept": "Neural Networks",
+      "Subject": "Data Science",
+      "Common Major": "Artificial Intelligence",
+      "Prerequisites": ["Networking Basics", "Statistics"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 51,
+      "Video Source": "3Blue1Brown",
+      "Video Link": "https://www.youtube.com/watch?v=aircAruvnKk"
+    },
+    {
+      "Concept": "Flask",
+      "Subject": "Networking",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Web Development Basics"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 84,
+      "Video Source": "Traversy Media",
+      "Video Link": "https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+    },
+    {
+      "Concept": "React",
+      "Subject": "Data Science",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Database Basics", "Algorithms"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 70,
+      "Video Source": "CS50",
+      "Video Link": "https://www.youtube.com/watch?v=3vauM7axnRs"
+    },
+    {
+      "Concept": "Flask",
+      "Subject": "Cybersecurity",
+      "Common Major": "Cybersecurity",
+      "Prerequisites": ["Networking Basics", "Web Development Basics", "Mathematics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 94,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=Qr4QMBUPxWo"
+    },
+    {
+      "Concept": "CSS",
+      "Subject": "Data Science",
+      "Common Major": "Artificial Intelligence",
+      "Prerequisites": ["Web Development Basics", "Database Basics", "Algorithms"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 62,
+      "Video Source": "Traversy Media",
+      "Video Link": "https://www.youtube.com/watch?v=yfoY53QXEnI"
+    },
+    {
+      "Concept": "Swift",
+      "Subject": "Data Science",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Mathematics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 60,
+      "Video Source": "CodeWithChris",
+      "Video Link": "https://www.youtube.com/watch?v=comQ1-x2a1Q"
+    },
+    {
+      "Concept": "Django",
+      "Subject": "Programming Languages",
+      "Common Major": "Artificial Intelligence",
+      "Prerequisites": ["Database Basics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 74,
+      "Video Source": "Traversy Media",
+      "Video Link": "https://www.youtube.com/watch?v=PtQiiknWUcI"
+    },
+    {
+      "Concept": "MySQL",
+      "Subject": "Operating Systems",
+      "Common Major": "Cybersecurity",
+      "Prerequisites": ["Database Basics"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 87,
+      "Video Source": "Programming with Mosh",
+      "Video Link": "https://www.youtube.com/watch?v=7S_tz1z_5bA"
+    },
+    {
+      "Concept": "Azure",
+      "Subject": "AI/ML",
+      "Common Major": "Data Science",
+      "Prerequisites": ["Database Basics", "Data Structures", "Web Development Basics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 72,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=NKEFWyqJ5XA"
+    },
+    {
+      "Concept": "Ansible",
+      "Subject": "Programming Languages",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Networking Basics", "Statistics", "Algorithms"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 59,
+      "Video Source": "LearnLinuxTV",
+      "Video Link": "https://www.youtube.com/watch?v=3RiVKs8GHYQ"
+    },
+    {
+      "Concept": "Protocol Design",
+      "Subject": "Programming Languages",
+      "Common Major": "Data Science",
+      "Prerequisites": ["Basic Programming"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 92,
+      "Video Source": "MIT OpenCourseWare",
+      "Video Link": "https://www.youtube.com/watch?v=yG-Fh40Ey_s"
+    },
+    {
+      "Concept": "Unit Testing",
+      "Subject": "Software Engineering",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Statistics"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 59,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=Jv2uxzhPFl4"
+    },
+    {
+      "Concept": "Python",
+      "Subject": "Networking",
+      "Common Major": "Software Engineering",
+      "Prerequisites": ["Web Development Basics"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 56,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+    },
+    {
+      "Concept": "Distributed Systems",
+      "Subject": "Programming Languages",
+      "Common Major": "Artificial Intelligence",
+      "Prerequisites": ["Networking Basics", "Data Structures"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 93,
+      "Video Source": "MIT OpenCourseWare",
+      "Video Link": "https://www.youtube.com/watch?v=cQP8WApzIQQ"
+    },
+    {
+      "Concept": "Neural Networks",
+      "Subject": "Cloud Computing",
+      "Common Major": "Computer Science",
+      "Prerequisites": ["Statistics", "Basic Programming", "Algorithms"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 93,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=Ixatq0OKj5w"
+    },
+    {
+      "Concept": "Virtualization",
+      "Subject": "Programming Languages",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Networking Basics"],
+      "Difficulty Level": "Beginner",
+      "Popularity Score": 53,
+      "Video Source": "PowerCert Animated Videos",
+      "Video Link": "https://www.youtube.com/watch?v=wX75Z-4MEoM"
+    },
+    {
+      "Concept": "C++",
+      "Subject": "Programming Languages",
+      "Common Major": "Software Engineering",
+      "Prerequisites": ["Database Basics", "Mathematics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 77,
+      "Video Source": "FreeCodeCamp",
+      "Video Link": "https://www.youtube.com/watch?v=vLnPwxZdW4Y"
+    },
+    {
+      "Concept": "Docker",
+      "Subject": "Database Systems",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Basic Programming"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 77,
+      "Video Source": "TechWorld with Nana",
+      "Video Link": "https://www.youtube.com/watch?v=3c-iBn73dDE"
+    },
+    {
+      "Concept": "Computer Networks",
+      "Subject": "Software Engineering",
+      "Common Major": "Information Technology",
+      "Prerequisites": ["Statistics", "Networking Basics", "Mathematics"],
+      "Difficulty Level": "Advanced",
+      "Popularity Score": 55,
+      "Video Source": "Neso Academy",
+      "Video Link": "https://www.youtube.com/watch?v=VwN91x5i25g"
+    },
+    {
+      "Concept": "Computer Architecture",
+      "Subject": "Operating Systems",
+      "Common Major": "Data Science",
+      "Prerequisites": ["Basic Programming"],
+      "Difficulty Level": "Intermediate",
+      "Popularity Score": 69,
+      "Video Source": "Neso Academy",
+      "Video Link": "https://www.youtube.com/watch?v=1WdxPj-S4IQ"
+    }
+  ]

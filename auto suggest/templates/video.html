@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player Console</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #343a40;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .console {
+            background-color: #212529;
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background-color: #495057;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="console text-center">
+        <h1>{{ concept }}</h1>
+        <iframe src="{{ video_link }}" allowfullscreen></iframe>
+        <a href="/" class="btn btn-primary">Back to recommendations</a>
+    </div>
+
+    {% if recommendations %}
+    <div class="console">
+        <h3>Similar Concepts</h3>
+        <ul>
+            {% for rec in recommendations %}
+            <li data-link="{{ url_for('play_video') }}?video_link={{ rec['Video Link'] | urlencode }}&concept={{ rec['Concept'] | urlencode }}" onclick="window.location.href=this.getAttribute('data-link')">
+                <strong>{{ rec["Concept"] }}</strong><br>
+                Popularity Score: {{ rec["Popularity Score"] }}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

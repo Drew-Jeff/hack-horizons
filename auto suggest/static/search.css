@@ -1,0 +1,72 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(95, 217, 95),rgb(64, 135, 135),rgb(36, 36, 92));
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    flex-direction: column;
+    margin:70px 5vw;
+    padding:4vh;
+    height: 80vh;
+    width: 80vw;
+    border-radius:20px;
+    position:relative;
+    margin-bottom: 30px;
+    background:linear-gradient(rgba(85, 88, 85, 0.486),rgba(193, 212, 212, 0.475),rgba(190, 190, 224, 0.493));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+form button{
+    padding:08px;
+    height: 50px;
+    text-align: center;
+    font-size:small;
+    border-radius: 40px;
+    background-color: rgba(3, 62, 62, 0.598);
+    width:150px;
+    color: rgb(0, 0, 0);
+}
+form button:hover{
+    background-color: rgb(1, 14, 14);
+    color: azure;
+    transition: 1s;
+}
+.j{
+    width:50vh;
+    padding: 20px;
+    border-radius: 40px;
+}
+li{
+    height:30vh;
+    width:15vw;
+    display: flex;
+    border-radius:30px;
+    flex-direction: column;
+    background-color: rgba(107, 88, 236, 0.649);
+    color: rgb(247, 242, 237);
+    margin:30px;
+    align-items: center;
+    justify-content: center;
+}
+li:hover{
+    transform:scale(1.2,1.2);
+    background:linear-gradient(rgba(68, 192, 68, 0.63),rgba(36, 255, 211, 0.614),rgba(26, 73, 245, 0.597));
+    transition: 2s;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+}
+h1{
+    color: aliceblue;
+}

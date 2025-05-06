@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='search.css') }}">
+</head>
+<body>
+<main>
+    <h1>Concept Recommendation System</h1>
+    <form method="POST">
+        <input type="text" name="concept" placeholder="Enter a concept" required class="j"><br><br>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    <hr>
+    <ul>
+        {% if recommendations %}
+            {% for rec in recommendations %}
+                <li data-link="{{ url_for('play_video') }}?video_link={{ rec['Video Link'] | urlencode }}&concept={{ rec['Concept'] | urlencode }}" onclick="openLink(this)">
+                    <strong>Concept:</strong> {{ rec["Concept"] }}<br>
+                    <strong>Popularity Score:</strong> {{ rec["Popularity Score"] }}
+                </li>
+            {% endfor %}
+        {% else %}
+            <li>No recommendations available. Please enter a concept above.</li>
+        {% endif %}
+    </ul>    
+    
+</main>
+
+<script>
+   function openLink(element) {
+        const link = element.getAttribute('data-link');
+        if (link && !link.endsWith('video_link=%23')) {
+            window.location.href = link;
+        } else {
+            alert("No video available for this concept.");
+        }
+    }
+</script>
+</body>
+</html>
